@@ -9,7 +9,7 @@ DHT_SENSOR = adafruit_dht.DHT11(board.D4)
 
 # Konfigurasi ThingsBoard
 THINGSBOARD_HOST = 'thingsboard.cloud'  # Ganti dengan host ThingsBoard Anda
-ACCESS_TOKEN = 'yhjbb4m1kc0d9rl0nkiu'  # Token perangkat ThingsBoard Anda
+ACCESS_TOKEN = 'xxxxxxxxxxxxxxxxxxxxxx'  # Token perangkat ThingsBoard Anda
 
 # Fungsi untuk koneksi MQTT
 def on_connect(client, userdata, flags, rc):
